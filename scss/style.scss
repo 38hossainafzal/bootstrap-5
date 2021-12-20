@@ -1,3 +1,6 @@
-body{
-    color: green;
+@import "mixins";
+@import "footer";
+
+.c-image{
+    @include caro-slider-image;
 }
